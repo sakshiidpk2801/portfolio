@@ -1,0 +1,116 @@
+.contact-left{
+    flex-basis: 35%;
+    margin-top: -50px;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contacthead{
+    margin-left: 0px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #ff004f;
+    font-size: 33px;
+}
+.contact-left p{
+    margin-top: 20px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 9px;
+    font-size: 18px;
+}
+.social-icons a{
+    font-size: 18px;
+    margin-right: 13px;
+    margin-top: 21px;
+    color: #d3d3d3;
+    display: inline-block;
+    text-decoration: none;
+    /* font-size: 16px; */
+    line-height: 37px;
+    background: #303030;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    text-align: center;
+    transition: background 0.3s, transform 0.3s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.button{
+    margin-top: 45px;
+}
+.btn{
+    border: 2px solid #ff004f;
+    border-radius: 8px;
+    background-color: #ff004f;
+    color: white;
+    padding: 12px;
+    padding-left: 35px;
+    /* margin-top: 10px; */
+    padding-right: 35px;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom-width: 3px;
+    box-shadow: -3px 3px 5px #525252;
+}
+.contact-right form{
+    width: 100%;
+    margin-top: -25px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 12px;
+    padding-left: 18px;
+    margin: 12px 0;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.btn2{
+    border: 2px solid #ff004f;
+    border-radius: 5px;
+    background-color: #ff004f;
+    color: white;
+    padding: 8px;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin-top: 8px;
+    margin-left: 315px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    /* border-bottom-width: 3px;
+    box-shadow: -3px 3px 5px #525252; */
+}
+.btn2:hover{
+    color: #262626;
+    box-shadow: 0px 3px 5px #858585;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p i{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ff004f;
+}
+.heart{
+    color: #ff004f;
+}

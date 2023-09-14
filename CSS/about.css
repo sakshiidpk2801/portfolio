@@ -1,0 +1,159 @@
+#about{
+    padding: 80px 0px;
+    color: #ff004f;
+    margin-top: 60px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col1{
+    flex-basis: 35%;
+}
+.about-col1 img{
+    width: 80%;
+    border-radius: 15px;
+}
+.about-col2{
+    flex-basis: 60%;
+}
+.aboutme{
+    font-size: 37px;
+    margin-left: -53px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-weight: bold; */
+}
+.aboutpara{
+    margin-left: -53px;
+    margin-top: 12px;
+    color: white;
+}
+.aboutpara span{
+    color: #ff004f;
+    /* margin-top: 10px; */
+}
+.tab-titles{
+    display: flex;
+    margin: 55px 0 40px;
+    margin-left: -53px;
+    /* border-radius: 2px;
+    background-color: #1d144a;
+    width: 20%;
+    margin-left: -113px;
+    text-align: center;
+    padding: 2px; */
+}
+.secondary-button{
+    border-radius: 12px;
+    background-color: #000000;
+    border: 1px solid #3c3c3c;
+    box-shadow: 0px 5px 5px #3c3c3c;
+    border-bottom-width: 1px;
+    /* border-color: antiquewhite; */
+    width: 107%;
+    margin-left: -84px;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 29px;
+    padding-bottom: 27px;
+}
+.aboutskills{
+    margin-left: 83px;
+}
+.title{
+    display: flex;
+}
+.tab-links{
+    margin-right: 241px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: antiquewhite;
+    margin-top: 30px;
+}
+.tab-links::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    /* color: antiquewhite; */
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+.tab-links.active-link::after{
+    width: 100%;
+}
+/* .tab-contents{
+    margin-top: 10px;
+    display: ;
+} */
+.tab-contents ul li{
+    list-style: circle;
+    margin: 27px 0px;
+    margin-left: -53px;
+    margin-top: 20px;
+    color: antiquewhite;
+    font-size: 15px;
+} 
+.tab-contents ul li span{
+    color: #ff004f;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+.edutable{
+    margin-left: 33px;
+    margin-top: 70px;
+    max-width: 100%;
+}
+.edutable table{  
+    height:350px;
+    /* margin-bottom: 10px; */
+    border-radius: 3px;
+    /* width: 350px; */
+    box-shadow:7px 5px 3px  var(--secondary-text-color) ;
+    text-align: center;
+}
+.edutable table,tr,th{
+    padding: 10px 10px 10px 10px;
+}
+.incontent{
+    padding: 20px;
+}
+.skill{
+    margin-left: 694px;
+}
+.experience{
+    margin-left: 976px;
+}
+.about-page-end{
+    border: 0.5px solid #3c3c3c;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px #3c3c3c;
+    width: 90%;
+    margin-left: 68px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+/* .secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 7px;
+    font-weight: 6 00;
+    color: var(--primary-text-color) !important;
+    padding: 15px 32px;
+    box-shadow: 5px 4px 3px var(--secondary-text-color);
+    transition: 0.2s ease-in-out;
+} */
+/* .hover-lins {
+    color: var(--primary-text-color);
+    transition: 0.3s ease-in-out;
+} */
